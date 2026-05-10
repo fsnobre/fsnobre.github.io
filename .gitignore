@@ -1,0 +1,37 @@
+
+# --- local Python/uv/conda artifacts ---
+.venv/
+venv/
+env/
+ENV/
+
+# uv local migration scratch files
+.uv-migration/
+_uv_migration_*/
+*.pre-uv-*/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# packaging/build outputs
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# local env/config files
+.env
+.env.*
+!.env.example
+
+# Conda/local environment artifacts
+.conda/
+conda-meta/
